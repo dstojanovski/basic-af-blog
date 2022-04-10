@@ -1,0 +1,29 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2">
+      <form (ngSubmit)="onSubmit(f)" #f="ngForm">
+        <div id="blog-data">
+          <div class="form-group">
+            <label for="Title">Title</label>
+            <input 
+            type="text" 
+            id="title" 
+            class="form-control"
+            ngModel
+            name="title">
+          </div>
+          <div class="form-group">
+            <label for="Body">Body</label>
+            <textarea 
+            id="body" 
+            class="form-control"
+            ngModel
+            name="body"
+            > </textarea>
+          </div>
+        </div>
+        <button class="btn btn-primary" type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+</div>
