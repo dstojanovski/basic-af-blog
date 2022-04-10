@@ -1,0 +1,42 @@
+{
+  "version": "1",
+  "cognitoConfig": {
+    "identityPoolName": "basicafblog_identitypool_ad9b337c",
+    "allowUnauthenticatedIdentities": false,
+    "resourceNameTruncated": "basicaad9b337c",
+    "userPoolName": "basicafblog_userpool_ad9b337c",
+    "autoVerifiedAttributes": [
+      "email"
+    ],
+    "mfaConfiguration": "OFF",
+    "mfaTypes": [
+      "SMS Text Message"
+    ],
+    "smsAuthenticationMessage": "Your authentication code is {####}",
+    "smsVerificationMessage": "Your verification code is {####}",
+    "emailVerificationSubject": "Your verification code",
+    "emailVerificationMessage": "Your verification code is {####}",
+    "defaultPasswordPolicy": false,
+    "passwordPolicyMinLength": 8,
+    "passwordPolicyCharacters": [],
+    "requiredAttributes": [
+      "email"
+    ],
+    "aliasAttributes": [],
+    "userpoolClientGenerateSecret": false,
+    "userpoolClientRefreshTokenValidity": 30,
+    "userpoolClientWriteAttributes": [
+      "email"
+    ],
+    "userpoolClientReadAttributes": [
+      "email"
+    ],
+    "userpoolClientLambdaRole": "basicaad9b337c_userpoolclient_lambda_role",
+    "userpoolClientSetAttributes": false,
+    "authSelections": "identityPoolAndUserPool",
+    "resourceName": "basicafblog",
+    "sharedId": "ad9b337c",
+    "serviceName": "Cognito",
+    "useDefault": "manual"
+  }
+}

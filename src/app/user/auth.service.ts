@@ -28,7 +28,7 @@ export class AuthService {
 
 
   constructor(private router: Router) {}
-  
+
   signUp(username: string, email: string, password: string): void {
     this.authIsLoading.next(true);
 
@@ -108,14 +108,12 @@ export class AuthService {
     // Authenticate user by passing the authDetails. 
     // The function execute onSuccess() - if the user is authenticated. 
     // The function execute onFailure() - if the user is NOT authenticated. 
-
     const that = this;
     cognitoUser.authenticateUser(authDetails, {
       onSuccess (result: CognitoUserSession){
         that.authStatusChanged.next(true);
         that.authDidFail.next(false);
         that.authIsLoading.next(false);
-        
         console.log(result);
       },
       onFailure(err) {

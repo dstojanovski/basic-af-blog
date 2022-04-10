@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "paths": {
+    "/add-new-blog": {
+      "name": "/add-new-blog",
+      "lambdaFunction": "basicafblogc45103bc",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      }
+    }
+  }
+}

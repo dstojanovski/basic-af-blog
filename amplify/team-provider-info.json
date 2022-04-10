@@ -1,0 +1,27 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-basicafblog-dev-223044-authRole",
+      "UnauthRoleArn": "arn:aws:iam::236816655232:role/amplify-basicafblog-dev-223044-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::236816655232:role/amplify-basicafblog-dev-223044-authRole",
+      "Region": "eu-central-1",
+      "DeploymentBucketName": "amplify-basicafblog-dev-223044-deployment",
+      "UnauthRoleName": "amplify-basicafblog-dev-223044-unauthRole",
+      "StackName": "amplify-basicafblog-dev-223044",
+      "StackId": "arn:aws:cloudformation:eu-central-1:236816655232:stack/amplify-basicafblog-dev-223044/81638a20-aaf0-11ec-ac2e-0696ca35dfb0",
+      "AmplifyAppId": "d2fazo7jg0cb5e",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-basicafblog-dev-223044-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "auth": {
+        "undefined": {}
+      },
+      "function": {
+        "basicafblogc45103bc": {
+          "deploymentBucketName": "amplify-basicafblog-dev-223044-deployment",
+          "s3Key": "amplify-builds/basicafblogc45103bc-647770687a575570674b-build.zip"
+        }
+      }
+    }
+  }
+}
